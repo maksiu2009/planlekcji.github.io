@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Lekcji</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <button class="przycisk-zamknij">Zamknij</button> <!-- Przycisk Zamknij -->
+        <nav>Plan lekcji w danym tygodniu</nav>
+        <div class="header">
+        </div>
+        <div class="info">
+            <p><strong>2025-02-03 - 2025-02-09</strong></p>
+            <table class="tabelka-poddata">
+                <tr>
+                    <th>Zindywidualizowana ścieżka kształcenia</th>
+                    <td><button class="tabelka-przycisk">✅️</button></td>
+                </tr>
+                <tr>
+                    <th>Nauczanie indywidualne</th>
+                    <td><button class="tabelka-przycisk">✅️</button></td>
+                </tr>
+                <tr>
+                    <th>Zajęcia dodatkowe</th>
+                    <td><button class="tabelka-przycisk">✅️</button></td>
+                </tr>
+            </table>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th class="nrlekcji">Nr lekcji</th>
+                    <th class="godziny">Godziny</th>
+                    <th class="poniedzialek">Poniedziałek<br>2025-02-03</th>
+                    <th class="wtorek">Wtorek<br>2025-02-04</th>
+                    <th class="sroda">Środa<br>2025-02-05</th>
+                    <th class="czwartek">Czwartek<br>2025-02-06</th>
+                    <th class="piatek">Piątek<br>2025-02-07</th>
+                    <th class="sobota">Sobota<br>2025-02-08</th>
+                    <th class="niedziela">Niedziela<br>2025-02-09</th>
+                    <th class="nrlekcji">Nr lekcji</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="nrlekcji">0</td>
+                    <td class="godziny">07:20 - 08:05</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="nrlekcji">0</td>
+                </tr>
+                <tr id="kolumna">
+                    <td></td>
+                    <td class="przerwa">08:05 - 08:15</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="nrlekcji">1</td>
+                    <td class="godziny">08:15 - 09:00</td>
+                    <td>
+                        <div class="przedmiot">Godzina wychowawcza</div>
+                        <div class="nauczyciel">- Luźniakowska Magdalena s. 114</div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <div class="przedmiot">Język polski</div>
+                        <div class="nauczyciel">- Chelińska Joanna s.132</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Język niemiecki</div>
+                        <div class="nauczyciel">- Luźniakowska Magdalena (2Ip nk) s. 114</div>                   
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td class="nrlekcji">1</td>
+                </tr>
+                <tr id="kolumna">
+                    <td></td>
+                    <td class="przerwa">09:00 - 09:10</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="nrlekcji">2</td>
+                    <td class="godziny">09:10 - 09:55</td>
+                    <td>
+                        <div class="przedmiot">Język polski</div>
+                        <div class="nauczyciel">- Chelińska Joanna s.132</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Montaż i eksploatacja lokalnej sieci komputerowej</div>
+                        <div class="nauczyciel">- Stępień Lucjan (2Ip 2. Grupa) s. 21</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Matematyka</div>
+                        <div class="nauczyciel">-Zasada Marek s. 105</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Biznes i Zarządzanie</div>
+                        <div class="nauczyciel">- Tomczyk Kamil s.10</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Język polski</div>
+                        <div class="nauczyciel">-Chelińska Joanna s. 132</div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td class="nrlekcji">2</td>
+                </tr>
+                <tr id="kolumna">
+                    <td></td>
+                    <td class="przerwa">09:55 - 10:05</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="nrlekcji">3</td>
+                    <td class="godziny">10:05 - 10:50</td>
+                    <td></td>    
+                    <td>
+                        <div class="przedmiot">Montaż i eksploatacja lokalnej sieci komputerowej</div>
+                        <div class="nauczyciel">- Stępień Lucjan (2Ip 2. Grupa) s. 21</div>
+                    </td>
+                    <td>   
+                        <div class="przedmiot">Wychowanie fizyczne</div>
+                        <div class="nauczyciel">- Falkowski Mariusz (2Ip 2. Grupa)  s. g1</div>
+                    </td>
+                    <td>                        
+                        <div class="przedmiot">Biologia</div>
+                        <div class="nauczyciel">- Białecka Ludmiła s. 118</div></td>
+                    <td>
+                        <div class="przedmiot">Język angielski</div>
+                        <div class="nauczyciel">- Michałowicz Bożena (2Ip 2. Grupa) s. 2m</div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td class="nrlekcji">3</td>
+                </tr>
+                <tr id="kolumna">
+                    <td></td>
+                    <td class="przerwa">10:50 - 11:10</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="nrlekcji">4</td>
+                    <td class="godziny">11:10 - 11:55</td>
+                    <td>
+                        <div class="przedmiot">Biznes i Zarządzanie</div>
+                        <div class="nauczyciel">- Tomczyk Kamil s. 37</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Montaż i eksploatacja lokalnej sieci komputerowej</div>
+                        <div class="nauczyciel">- Stępień Lucjan (2Ip 2. Grupa)  s. 21</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Historia</div>
+                        <div class="nauczyciel">-Cwonda - Kustosik Joanna  s. 12</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Naprawa urządzeń techniki komputerowej</div>
+                        <div class="nauczyciel">- Stępień Lucjan (2Ip 2. Grupa)  s. 21</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Eksploatacja urządzeń peryferyjnych</div>
+                        <div class="nauczyciel">- Zieliński Tomasz (2Ip 2. Grupa) s. 21</div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td class="nrlekcji">4</td>
+                </tr>
+                <tr id="kolumna">
+                    <td></td>
+                    <td class="przerwa">11:55 - 12:05</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="nrlekcji">5</td>
+                    <td class="godziny">12:05 - 12:50</td>
+                    <td>
+                        <div class="przedmiot">Informatyka</div>
+                        <div class="nauczyciel">- Dynek Mariusz (2Ip 2. Grupa) s. 133</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Tworzenie i testowanie aplikacji</div>
+                        <div class="nauczyciel">- Włodarska Wioletta (2Ip 2. Grupa) s. 36</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Administrowanie serwerowymi systemami operacyjnymi</div>
+                        <div class="nauczyciel">- Dynek Mariusz (2Ip 2. Grupa) s. 133</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Naprawa urządzeń techniki komputerowej</div>
+                        <div class="nauczyciel">- Stępień Lucjan (2Ip 2. Grupa) s. 21</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Eksploatacja urządzeń peryferyjnych</div>
+                        <div class="nauczyciel">- Zieliński Tomasz (2Ip 2. Grupa) s. 21</div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td class="nrlekcji">5</td>
+                </tr>
+                <tr id="kolumna">
+                    <td></td>
+                    <td class="przerwa">12:50 - 13:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="nrlekcji">6</td>
+                    <td class="godziny">13:00 - 13:45</td>
+                    <td>
+                        <div class="przedmiot">Geografia</div>
+                        <div class="nauczyciel">- Walczak Halina s. 9</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Tworzenie i testowanie aplikacji</div>
+                        <div class="nauczyciel">- Włodarska Wioletta (2Ip 2. Grupa) s. 36</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Administrowanie serwerowymi systemami operacyjnymi</div>
+                        <div class="nauczyciel">- Dynek Mariusz (2Ip 2. Grupa) s. 133</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Język agnielski</div>
+                        <div class="nauczyciel">- Michałowicz Bożena (2Ip 2. Grupa)  s. 2m</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Historia i teraźniejszość</div>
+                        <div class="nauczyciel">- Pielesiek Rafał s. 131</div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td class="nrlekcji">6</td>
+                </tr>
+                <tr id="kolumna">
+                    <td></td>
+                    <td class="przerwa">13:45 - 13:55</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="nrlekcji">7</td>
+                    <td class="godziny">13:55 - 14:40</td>
+                    <td>
+                        <div class="odwolane">odwołane</div>
+                        <div class="przedmiot"><s>Matematyka</s></div>
+                        <div class="nauczyciel"><s>- Zasada Marek s. 105</s></div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Tworzenie i testowanie aplikacji</div>
+                        <div class="nauczyciel">- Włodarska Wioletta (2Ip 2. Grupa) s. 36</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Administrowanie serwerowymi systemami operacyjnymi</div>
+                        <div class="nauczyciel">- Dynek Mariusz (2Ip 2. Grupa) s. 133</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Wychowanie fizyczne</div>
+                        <div class="nauczyciel">- Falkowski Mariusz (2Ip 2. Grupa) s. g3</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Historia</div>
+                        <div class="nauczyciel">- Cwonda - Kustosik Joanna s. 132</div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td class="nrlekcji">7</td>
+                </tr>
+                <tr id="kolumna">
+                    <td></td>
+                    <td class="przerwa">14:40 - 14:50</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="nrlekcji">8</td>
+                    <td class="godziny">14:50 - 15:35</td>
+                    <td>
+                        <div class="nieobecnosc">nieobecność klasy 2IT</div>
+                        <div class="przedmiot">Biologia</div>
+                        <div class="nauczyciel">- Białecka Ludmila s. 118</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Geografia</div>
+                        <div class="nauczyciel">-Walczak Halina s. 9</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Język angielski</div>
+                        <div class="nauczyciel">- Michałowicz Bożena (2Ip 2. Grupa) s. 2m</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Wychowanie fizyczne</div>
+                        <div class="nauczyciel">- Falkowski Mariusz (2Ip 2. Grupa) s. g3</div>
+                    </td>
+                    <td>
+                        <div class="przedmiot">Matematyka</div>
+                        <div class="nauczyciel">-Zasada Marek s. 105</div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td class="nrlekcji">8</td>
+                </tr>
+                <tr id="kolumna">
+                    <td></td>
+                    <td class="przerwa">15:35 - 15:45</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="nrlekcji">9</td>
+                    <td class="godziny">15:45 - 16:30</td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <div class="przedmiot">Język niemiecki</div>
+                        <div class="nauczyciel">- Luźniakowska Magdalena (2Ip nk) s. 114</div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="nrlekcji">9</td>
+                </tr>
+                <tr id="kolumna">
+                    <td></td>
+                    <td class="przerwa">16:30 - 16:35</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="nrlekcji">10</td>
+                    <td class="godziny">16:35 - 17:20</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="nrlekcji">10</td>
+                </tr>
+                <tr id="kolumna">
+                    <td></td>
+                    <td class="przerwa">17:20 - 17:25</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="nrlekcji">11</td>
+                    <td class="godziny">17:25 - 18:10</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="nrlekcji">11</td>
+                </tr>
+                <tr id="kolumna">
+                    <td></td>
+                    <td class="przerwa">18:10 - 18:20</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="nrlekcji">12</td>
+                    <td class="godziny">18:20 - 19:05</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="nrlekcji">12</td>
+                </tr>
+                <tr id="kolumna">
+                    <td></td>
+                    <td class="przerwa">19:05 - 19:10</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="nrlekcji">13</td>
+                    <td class="godziny">19:10 - 19:55</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="nrlekcji">13</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        document.querySelector('.przycisk-zamknij').addEventListener('click', function() {
+            alert('Przycisk "Zamknij" został kliknięty');
+            // Możesz dodać tutaj kod do zamknięcia okna lub wykonania innej akcji
+        });
+        document.querySelectorAll('.tabelka-przycisk').forEach(button => {
+    button.addEventListener('click', function() {
+        alert('Przycisk w tabelce został kliknięty');
+        // Możesz dodać tutaj kod do wykonania po kliknięciu przycisku
+    });
+});
+    </script>
+</body>
+
+</html>

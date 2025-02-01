@@ -1,0 +1,198 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 10000px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Ustawienie pozycji względnej dla kontenera */
+}
+
+.przycisk-zamknij {
+    position: absolute; /* Pozycja absolutna względem kontenera */
+    top: 10px; /* Odstęp od góry */
+    right: 1px; /* Odstęp od prawej */
+    background-color: #A4C801; /* Czerwone tło */
+    color: white; /* Biały tekst */
+    border: none; /* Usunięcie domyślnego obramowania */
+    padding: 0px 10px; /* Wewnętrzny padding */
+    font-size: 14px; /* Rozmiar czcionki */
+    cursor: pointer; /* Kursor wskazujący */
+    border-radius: 4px; /* Zaokrąglone rogi */
+    outline-color: #333;
+    outline-width: 1px;
+    outline-style: inset;
+}
+
+.tabelka-poddata {
+    width: 20%;
+    margin: 0 auto; /* Wyśrodkowanie tabelki */
+    border-collapse: collapse;
+    margin-top: 5px; /* Odstęp od daty */
+}
+
+.tabelka-poddata th {
+    background-color: #f2f2f2;
+    padding: 5px; /* Większy padding dla lepszej czytelności */
+    text-align: center;
+    border: 1px solid #d8d8d8;
+    font-size: 12px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 0;
+    text-align: left;
+    font-size: 9px;
+    margin: 0;
+    vertical-align: top; /* Ustawienie wyrównania do góry */
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.header {
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 10px;
+    color: #333;
+}
+
+.info {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #000000;
+}
+
+.info p {
+    margin: 2px 0;
+}
+
+.day {
+    width: 100px;
+    padding: 2px;
+    background-color: #e0e0e0;
+    font-weight: normal;
+}
+
+.przerwa {
+    width: 50px;
+    padding: 2px;
+    font-size: 8px;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    padding: 3px;
+    margin: 0;
+    font-size: 10px;
+}
+
+.odwolane {
+    width: 100%; /* Upewnij się, że szerokość wynosi 100% */
+    background-color: #A4C801;
+    color: #ffffff;
+    padding: 0; /* Usuń padding, aby tło dotykało krawędzi */
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0; /* Usuń marginesy */
+    display: block; /* Upewnij się, że element jest blokowy */
+    box-sizing: border-box; /* Uwzględnij padding i border w szerokości */
+    height: 100%; /* Wysokość na 100% komórki */
+    display: flex;
+    align-items: flex-start; /* Wyrównaj do góry */
+    justify-content: center;
+}
+
+.nieobecnosc {
+    width: 100%; /* Upewnij się, że szerokość wynosi 100% */
+    background-color: #FF7878;
+    color: black;
+    padding: 0; /* Usuń padding, aby tło dotykało krawędzi */
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0; /* Usuń marginesy */
+    display: block; /* Upewnij się, że element jest blokowy */
+    box-sizing: border-box; /* Uwzględnij padding i border w szerokości */
+}
+
+
+#kolumna {
+    width: 50px;
+    border: 1.5px solid #d1d1d0;
+    background-color: #e4e4e455;
+}
+
+.godziny {
+    width: 5%;
+    padding: 1px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.nrlekcji {
+    width: 2%;
+    padding: 1px;
+    font-size: 11px;
+    text-align: center;
+    height: 50px;
+}
+
+.poniedzialek, .wtorek, .sroda, .czwartek, .piatek {
+    width: 10%;
+    text-align: center;
+    font-size: 11px;
+}
+
+.sobota {
+    width: 3%;
+    text-align: center;
+}
+
+.niedziela {
+    width: 3%;
+    text-align: center;
+}
+
+.przedmiot {
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.nauczyciel {
+    font-size: 11px;
+    margin-top: 1px;
+}
+
+.tabelka-przycisk {
+    padding: 2px 5px; /* Wewnętrzny padding */
+    font-size: 10px; /* Rozmiar czcionki */
+    cursor: pointer; /* Kursor wskazujący */
+    margin: 2px; /* Margines */
+    display: flex;
+    align-items: center; /* Wyrównanie wertykalne */
+    justify-content: center; /* Wyrównanie horyzontalne */
+}
